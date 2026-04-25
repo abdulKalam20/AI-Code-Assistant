@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#00d2ff" />
+      <stop offset="100%" stopColor="#a855f7" />
+    </linearGradient>
+  </defs>
+  <!-- Chat Bubble / Robot Head -->
+  <path d="M 15 45 C 15 20, 85 20, 85 45 C 85 65, 55 68, 48 68 L 22 78 L 25 60 C 15 55, 15 50, 15 45 Z" fill="url(#logoGrad)" />
+  <!-- Dark Screen inside -->
+  <rect x="25" y="34" width="50" height="24" rx="8" fill="#0b0b14" />
+  <!-- Cute Eyes: happy arches -->
+  <path d="M 33 44 Q 38 39 43 44" stroke="#00d2ff" strokeWidth="4" strokeLinecap="round" fill="none" />
+  <path d="M 57 44 Q 62 39 67 44" stroke="#00d2ff" strokeWidth="4" strokeLinecap="round" fill="none" />
+  <!-- Antenna -->
+  <line x1="50" y1="23" x2="50" y2="10" stroke="#00d2ff" strokeWidth="6" strokeLinecap="round" />
+  <circle cx="50" cy="5" r="5" fill="#00d2ff" />
+</svg>
