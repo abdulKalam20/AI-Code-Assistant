@@ -45,7 +45,7 @@ function App() {
   const analyze = async () => {
     try {
       setSubmittedCode(code);
-      const res = await axios.post("http://localhost:5000/api/analyze", {
+      const res = await axios.post("https://ai-code-assistant-4oon.onrender.com/api/analyze", {
         code,
         language: "javascript"
       });
